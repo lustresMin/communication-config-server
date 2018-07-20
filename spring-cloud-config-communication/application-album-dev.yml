@@ -15,10 +15,6 @@
       max-request-size: 10MB
       enabled: true
 
-logging:
-  level:
-    com.own.microservice.provide.rfriends.circle.album: trace
-
 
 swagger:
   enabled: true
