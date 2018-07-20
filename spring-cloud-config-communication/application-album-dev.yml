@@ -20,5 +20,3 @@ swagger:
   enabled: true
   title: 朋友圈相册服务提供
   base-package: com.own.microservice.provide.rfriends.circle.album.controller
-
-TEST: 成功
