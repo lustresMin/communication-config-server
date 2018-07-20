@@ -1,10 +1,10 @@
 ﻿spring:
-  data:
-    mongodb:
+  #data:
+    #mongodb:
       #username: communication
       #password: 123456
-      database: communication_circle_album
-      uri: mongodb://39.104.16.81:27017
+      #database: communication_circle_album
+      #uri: mongodb://39.104.16.81:27017
   jpa:
     show-sql: true
     hibernate:
