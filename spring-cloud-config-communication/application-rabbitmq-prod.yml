@@ -1,4 +1,4 @@
-spring:
+﻿spring:
   rabbitmq:
     username: root
     password: root
@@ -8,3 +8,4 @@ spring:
     publisher-confirms: true
     #虚拟空间地址
     virtual-host: /
+Testt: 测试
