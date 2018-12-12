@@ -1,7 +1,7 @@
 ﻿spring:
   data:
     mongodb:
-      username: communication
+      username: root
       password: 123456
       database: communication_circle_album
       uri: mongodb://localhost:27017
