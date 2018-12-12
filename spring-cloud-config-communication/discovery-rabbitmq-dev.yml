@@ -1,8 +1,8 @@
 spring:
   rabbitmq:
-    username: root
-    password: root
-    host: 192.168.1.153
+    username: guest
+    password: guest
+    host: localhost
     port:  5672
     #配置发布消息确认回调
     publisher-confirms: true
