@@ -3,7 +3,7 @@
     mongodb:
       username: root
       password: 123456
-      database: communication_circle_album
+      database: admin
       uri: mongodb://localhost:27017
   jpa:
     show-sql: true
