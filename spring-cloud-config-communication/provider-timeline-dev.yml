@@ -1,10 +1,10 @@
 ﻿spring:
   data:
     mongodb:
-      username: communication
-      password: 123456
-      database: communication_circle_timeline
-      uri: mongodb://localhost:27017
+#      username: communication
+#      password: 123456
+#      database: communication_circle_timeline
+      uri: mongodb://communication:123456@localhost:27017/communication_circle_timeline
 
 
 spring:
