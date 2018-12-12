@@ -1,9 +1,9 @@
 ﻿spring:
   data:
     mongodb:
-      username: root
+      username: communication
       password: 123456
-      database: admin
+      database: communication_circle_album
       uri: mongodb://localhost:27017
   jpa:
     show-sql: true
@@ -15,7 +15,7 @@
       max-request-size: 10MB
       enabled: true
 
-#
+
 swagger:
   enabled: true
   title: 朋友圈相册服务提供
