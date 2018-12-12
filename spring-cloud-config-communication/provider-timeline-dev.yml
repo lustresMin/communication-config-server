@@ -1,13 +1,11 @@
 ﻿spring:
   data:
     mongodb:
-#      username: communication
+#      username: root
 #      password: 123456
-#      database: communication_circle_timeline
+#      database: communication_circle_album
+#mongodb://name:pass@localhost:27017/test
       uri: mongodb://communication:123456@localhost:27017/communication_circle_timeline
-
-
-spring:
   jpa:
     show-sql: true
     hibernate:
@@ -18,12 +16,18 @@ spring:
       max-request-size: 10MB
       enabled: true
 
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://user:password123@localhost:8010/eureka/
 
 logging:
   level:
-    com.own.microservice.provider.friends.circle.timeline: trace
-
-
+    com.own.microservice.provider.friends.circle.comment: trace
 
 swagger:
   enabled: true

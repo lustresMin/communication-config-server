@@ -1,12 +1,10 @@
 spring:
   data:
     mongodb:
-#      username: communication
-#      password: 123456
+      #username: communication
+      #password: 123456
       database: communication_circle_comment
       uri: mongodb://39.104.16.81:27017
-
-spring:
   jpa:
     show-sql: true
     hibernate:
@@ -17,6 +15,9 @@ spring:
       max-request-size: 10MB
       enabled: true
 
+logging:
+  level:
+    com.own.microservice.provide.rfriends.circle.album: trace
 
 eureka:
   instance:
@@ -26,12 +27,6 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://user:password123@localhost:8010/eureka/
-
-logging:
-  level:
-    com.own.microservice.provider.friends.circle.comment: trace
-
-
 
 swagger:
   enabled: true

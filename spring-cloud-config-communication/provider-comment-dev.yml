@@ -29,8 +29,6 @@ logging:
   level:
     com.own.microservice.provider.friends.circle.comment: trace
 
-
-
 swagger:
   enabled: true
   title: 朋友圈评论服务提供者
