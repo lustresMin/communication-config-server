@@ -3,8 +3,8 @@ spring:
     mongodb:
 #      username: communication
 #      password: 123456
-#      database: communication_circle_comment
-      uri: mongodb://39.104.16.81:27017/communication_circle_comment
+      database: communication_circle_comment
+      uri: mongodb://39.104.16.81:27017
 
 spring:
   jpa:
