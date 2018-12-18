@@ -7,12 +7,13 @@ eureka:
     service-url:
       defaultZone: http://user:password123@localhost:8010/eureka/
 zuul:
-  routes:
-    api-a:
-      path: /api-a/**
-      serviceId: provider-album
-    api-b:
-      path: /api-b/**
-      serviceId: provider-comment
-# 全局放行
+# 默认配置为读取eureka注册中心的路由 规则：http://ZUUL_HOST:ZUUL_PORT/微服务在Eureka上的serviceId/**
+#  routes:
+#    api-a:
+#      path: /api-a/**
+#      serviceId: provider-album
+#    api-b:
+#      path: /api-b/**
+#      serviceId: provider-comment
+# 涉及验证的全局放行
   sensitive-headers: Cookie,Set-Cookie,Authorization
